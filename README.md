@@ -5,7 +5,7 @@ Este repositorio contiene tres notebooks que implementan diferentes modelos de m
 
 ## Contenido del repositorio:
 
-- `ArbolDecision_pokemon.ipynb`: Implementa un modelo de árbol de decisión para predecir la clase de un Pokémon (estándar, mítico o legendario).
+- `ArbolDecision_pokemon.ipynb`: Implementa un modelo de árbol de decisión para predecir la clase de un Pokémon (estándar, mítico, legendario o ultra beast).
 - `KNN_pokemon.ipynb`: Implementa un modelo K-Nearest Neighbors (KNN) para predecir el tipo de un Pokémon basado en sus atributos.
 - `Regresión_lineal_Bitcoin.ipynb`: Utiliza regresión lineal para predecir el precio de Bitcoin en función de datos históricos.
 
@@ -15,7 +15,7 @@ Este repositorio contiene tres notebooks que implementan diferentes modelos de m
 
 ### 1. Proceso de selección del dataset
 
-- **Arbol de Decisión y KNN**: Utilizamos un dataset de Pokémon que contiene atributos como ataque, defensa, velocidad, y puntos de vida, entre otros. Para el modelo KNN, se seleccionaron las características relevantes para predecir el tipo de Pokémon (agua, fuego, planta, etc.). En el modelo de árbol de decisión, se utilizaron los mismos atributos, pero el objetivo fue predecir si un Pokémon es de clase estándar, mítico o legendario.
+- **Arbol de Decisión y KNN**: Utilizamos un dataset de Pokémon que contiene atributos como ataque, defensa, velocidad, y puntos de vida, entre otros. Para el modelo KNN, se seleccionaron las características relevantes para predecir el tipo de Pokémon (agua, fuego, planta, etc.). En el modelo de árbol de decisión, se utilizaron los mismos atributos, pero el objetivo fue predecir si un Pokémon es de clase estándar, mítico, legendario o ultra beast.
   
 - **Regresión Lineal**: El dataset utilizado para la regresión lineal proviene de datos históricos de precios de Bitcoin. Se seleccionaron características como el precio de apertura, el precio máximo, mínimo, y el volumen de transacciones para predecir el precio de cierre de Bitcoin.
 
@@ -23,7 +23,7 @@ Este repositorio contiene tres notebooks que implementan diferentes modelos de m
 
 - **KNN (Pokémon)**: El modelo KNN fue entrenado y probado con una precisión decente al predecir el tipo de Pokémon. Se utilizó una validación cruzada para evaluar el rendimiento del modelo.
   
-- **Árbol de decisión (Pokémon)**: El árbol de decisión mostró buenos resultados al clasificar a los Pokémon en las categorías de estándar, mítico y legendario. Se realizó una poda de los nodos para mejorar la precisión y evitar el sobreajuste.
+- **Árbol de decisión (Pokémon)**: El árbol de decisión mostró buenos resultados al clasificar a los Pokémon en las categorías de estándar, mítico, legendario y ultra beast. Se realizó una poda de los nodos para mejorar la precisión y evitar el sobreajuste.
   
 - **Regresión Lineal (Bitcoin)**: El modelo de regresión lineal fue capaz de predecir el precio de cierre de Bitcoin con una cierta precisión. El análisis de los residuos mostró que hay ciertas características no lineales que podrían mejorarse en futuros modelos.
 
