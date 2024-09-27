@@ -31,6 +31,6 @@ Este repositorio contiene tres notebooks que implementan diferentes modelos de m
 
 - **KNN**: El modelo KNN funciona bien cuando se trata de predecir el tipo de Pokémon basado en sus características físicas y estadísticas. Sin embargo, la precisión depende mucho de la calidad de los datos y el número de vecinos seleccionados.
   
-- **Árbol de decisión**: El árbol de decisión ofrece una forma visual y sencilla de interpretar los resultados. El modelo es útil para hacer clasificaciones de tipo Pokémon, pero puede requerir ajustes adicionales, como la poda de nodos, para mejorar la precisión en datasets más grandes.
+- **Árbol de decisión**: El árbol de decisión ofrece una forma visual y sencilla de interpretar los resultados. El modelo es útil para hacer clasificaciones de tipo Pokémon, pero puede requerir ajustes adicionales.
   
-- **Regresión lineal**: Aunque la regresión lineal es un modelo simple, tiene limitaciones cuando se trata de datos financieros como Bitcoin, donde los precios pueden depender de factores no lineales y externos. Un enfoque más avanzado, como redes neuronales o modelos de series temporales, podría mejorar los resultados.
+- **Regresión lineal**: Aunque la regresión lineal es un modelo simple, tiene limitaciones cuando se trata de datos financieros como Bitcoin, donde los precios pueden depender de factores no lineales y externos.
